@@ -1,0 +1,15 @@
+body.result-body {
+    background: linear-gradient(135deg, #2d4286, #3f5ccf);
+    color: white;
+}
+
+.result-card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+}
+
+.round-row {
+    margin: 8px 0;
+    font-size: 14px;
+}
