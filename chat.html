@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Realtime</title>
+    <style>
+        #chat {
+            border: 1px solid #ccc;
+            height: 300px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Realtime Chat</h2>
+
+<div id="chat"></div>
+
+<input id="name" placeholder="Nama">
+<input id="message" placeholder="Pesan">
+<button onclick="sendMessage()">Kirim</button>
+
+<script>
+const conn = new WebSocket('ws://localhost:8080');
+const chat = document.getElementById('chat');
+
+conn.onmessage = function(e) {
+    const msg = JSON.parse(e.data);
+    chat.innerHTML += `<p><b>${msg.name}:</b> ${msg.message}</p>`;
+};
+
+function sendMessage() {
+    const name = document.getElementById('name').value;
+    const message = document.getElementById('message').value;
+
+    conn.send(JSON.stringify({ name, message }));
+}
+</script>
+
+<script>
+window.RpsAudioConfig = {
+    track: 'audio/all-page.mp3',
+    trackKey: 'all-page'
+};
+</script>
+<script src="js/audio-manager.js"></script>
+</body>
+</html>
