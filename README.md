@@ -10,6 +10,15 @@ Aplikasi web multiplayer real-time yang menggabungkan fitur global chat dan perm
 - **Sistem Poin & Leaderboard**: Papan peringkat berdasarkan poin dan kemenangan.
 - **History Pertandingan**: Lihat riwayat permainan kamu dan lawan.
 
+## Anggota Kelompok
+
+| Nama | NPM | Peran |
+|---|---|---|
+| Wilda Yanti | 2410010569 | Laporan |
+| Salsa Amalia Rizki | 2410010386 | UI-UX Design |
+| Nabil Januar Nurrahmansyah | 2410010434 | Frontend |
+| Gusti Muhammad Rakha Hadiwijaya | 2410010221 | Backend |
+
 ## Persyaratan Sistem
 - PHP 7.4 atau lebih baru (direkomendasikan PHP 8.x)
 - Composer
