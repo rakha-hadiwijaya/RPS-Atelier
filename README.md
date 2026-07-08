@@ -10,6 +10,12 @@ Aplikasi web multiplayer real-time yang menggabungkan fitur global chat dan perm
 - **Sistem Poin & Leaderboard**: Papan peringkat berdasarkan poin dan kemenangan.
 - **History Pertandingan**: Lihat riwayat permainan kamu dan lawan.
 
+
+## Demo Video
+
+Tonton demo aplikasi di YouTube:
+https://youtu.be/Nq2dF-UVH0w?si=6EbCOFkbvS5coMZe
+
 ## Anggota Kelompok
 
 | Nama | NPM | Peran |
